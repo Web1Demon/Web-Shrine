@@ -66,6 +66,10 @@ body {
     margin-top: 20px;
 }
 
+#category-select{
+    background-color: black;
+}
+
 button, select {
     font-size: 1rem;
     padding: 10px 15px;
