@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Shrine of Charms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shrine">
+        <h1>Web Shrine of Charms</h1>
+        <div class="charm-box">
+            <div id="quote-display" class="quote"></div>
+        </div>
+
+        <div class="controls">
+            <select id="category-select">
+                <option value="all">All</option>
+                <option value="motivation">Motivation</option>
+                <option value="humor">Humor</option>
+                <option value="wisdom">Wisdom</option>
+                <option value="programming">Programming</option>
+            </select>
+            <button id="summon-btn">Summon Charm</button>
+        </div>
+
+        <div class="tracker">
+            <p>Quotes Viewed: <span id="quote-count">0</span></p>
+            <button id="reset-btn">Reset Counter</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
